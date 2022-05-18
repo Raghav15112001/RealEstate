@@ -1,0 +1,12 @@
+include(
+    ":app",
+    ":libraries:test-utils",
+    ":libraries:data",
+    ":libraries:domain",
+    ":libraries:core",
+    ":features:home",
+    ":features:property_detail",
+    ":features:dashboard",
+    ":features:notification",
+    ":features:account"
+)
